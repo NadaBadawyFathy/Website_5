@@ -67,18 +67,6 @@ body{
     transform: translateX(-50%);
     bottom: -30px;
 }
-/* .main-heading h2::after {
-    content: " ";
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    border: 2px solid #333;
-    background-color: #ddd;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -38px;
-} */
 /* End components */
 /*     font-family: 'Cairo', sans-serif;
 
@@ -837,12 +825,12 @@ header .container .icon:hover {
 }
 .r-news .container .news .box h3 {
     font-family: 'Edu TAS Beginner', cursive;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 .r-news .container .news .box p {
-    line-height: 1.5;
-    font-size: 15px;
-    margin-bottom: 10px;
+    line-height: 2;
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 .r-news .container .news .box a {
     text-decoration: underline;
@@ -850,6 +838,7 @@ header .container .icon:hover {
     display: flex;
     justify-content: center;
     transition: .3s;
+    margin-bottom: 10px;
 }
 .r-news .container .news .box:hover a {
     color: var(--main-color);
